@@ -1,32 +1,69 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+bfgminer
+bfgminer.exe
+bfgminer-rpc
+bfgminer-rpc.exe
+bitforce-firmware-flash
+cgminer
+cgminer.exe
+minerd
+minerd.exe
 *.o
-*.obj
+*.bin
 
-# Precompiled Headers
-*.gch
-*.pch
+autom4te.cache
+.deps
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+Makefile
+Makefile.in
+INSTALL
+aclocal.m4
+configure
+depcomp
+missing
+install-sh
+stamp-h1
+cpuminer-config.h*
+compile
+config.log
+config.status
+config.guess
+config.sub
+70-bfgminer.rules
 
-# Fortran module files
-*.mod
-*.smod
+mingw32-config.cache
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+*~
+*.orig
+*.rej
+*.swp
+*.kate-swp
 
-# Executables
-*.exe
-*.out
-*.app
+ext_deps
+config.h.in
+config.h
+
+ccan*/libccan.a
+lib/arg-nonnull.h
+lib/c++defs.h
+lib/libgnu.a
+lib/signal.h
+lib/string.h
+lib/stdint.h
+lib/warn-on-use.h
+iospeeds_local.h
+version.h
+version.h.new
+
+mkinstalldirs
+
+.pc
+bfgminer-bitforce.conf
+
+vgcore.*
+core*
+*.log
+*.json
+*.patch
+*.zip
+*.tbz2
+*.bz2
